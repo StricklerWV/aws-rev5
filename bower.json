@@ -1,0 +1,33 @@
+{
+  "name": "aws-rev5",
+  "version": "1.0.3",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "aws-rev5.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/aws-rev5/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0",
+    "iron-pages": "PolymerElements/iron-pages#^1.0.0",
+    "web-client": "dwagner4/web-client#~0.3.0",
+    "nmb-private-pages": "NMB-Dev/nmb-private-pages#~0.0.1",
+    "aws-boards": "NMB-Dev/aws-boards#~0.1.0",
+    "aws-assignments": "NMB-Dev/aws-assignments#~0.1.0",
+    "aws-rev-cases": "NMB-Dev/aws-rev-cases#~0.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
