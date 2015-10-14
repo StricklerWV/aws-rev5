@@ -15,6 +15,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../aws-boards/aws-boards.html">
 <link rel="import" href="../aws-assignments/aws-assignments.html">
 <link rel="import" href="../aws-rev-req/aws-rev-req.html">
+<link rel="import" href="../aws-rev-rpt/aws-rev-rpt.html">
 <link rel="import" href="../iron-pages/iron-pages.html">
 
 <!--
@@ -44,6 +45,7 @@ Example:
       <aws-rev-cases fire-db="{{dataUrl}}"></aws-rev-cases>
       <aws-assignments fire-db="{{dataUrl}}"></aws-assignments>
       <aws-rev-req fire-db="{{dataUrl}}"></aws-rev-req>
+      <aws-rev-rpt fire-db="{{dataUrl}}"></aws-rev-rpt>
     </iron-pages>
   </template>
 
@@ -86,7 +88,8 @@ Example:
               {name: "Boards"}, 
               {name: "Cases"},
               {name: "Assignments"},
-              {name: "Requests"}
+              {name: "Requests"},
+              {name: "Reports"}
               ];
       console.log(this.menuItems);
       this.addEventListener('page-change', function (e) {
