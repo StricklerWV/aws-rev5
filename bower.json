@@ -20,7 +20,8 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^1.1.0",
     "iron-pages": "PolymerElements/iron-pages#^1.0.0",
-    "web-client": "dwagner4/web-client#~0.3.0",
+    "web-client": "dwagner4/web-client#~0.4.0",
+    "aws-home": "NMB-Dev/aws-home#~0.1.0",
     "nmb-private-pages": "NMB-Dev/nmb-private-pages#~0.0.1",
     "aws-boards": "NMB-Dev/aws-boards#~0.1.0",
     "aws-assignments": "NMB-Dev/aws-assignments#~0.1.0",
