@@ -25,10 +25,10 @@
     "nmb-private-pages": "NMB-Dev/nmb-private-pages#~0.0.1",
     "aws-boards": "NMB-Dev/aws-boards#~0.1.0",
     "aws-staff-view": "NMB-Dev/aws-staff-view#~0.1.0",
-    "aws-assignments": "NMB-Dev/aws-assignments#~0.1.0",
+    "aws-assignments": "NMB-Dev/aws-assignments#~0.2.0",
     "aws-rev-req": "NMB-Dev/aws-rev-req#~0.1.0",
     "aws-rev-rpt": "NMB-Dev/aws-rev-rpt#~0.1.0",
-    "aws-rev-cases": "NMB-Dev/aws-rev-cases#~0.1.0"
+    "aws-rev-cases": "NMB-Dev/aws-rev-cases#~0.2.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
